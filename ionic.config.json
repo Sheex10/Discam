@@ -1,0 +1,7 @@
+{
+  "name": "discam",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
