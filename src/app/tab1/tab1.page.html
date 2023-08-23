@@ -6,6 +6,7 @@
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
@@ -26,7 +27,21 @@
     <ion-card-content>
       Somos el mejor país de chile <br> #VivaChile
     </ion-card-content>
+    <ion-button color="light">
+      <ion-icon name="chatbox-outline"></ion-icon>
+    </ion-button>
+    <ion-button color="light">
+      <ion-icon name="heart-outline"></ion-icon>
+    </ion-button>
+    <ion-button color="light">
+      <ion-icon name="share-outline"></ion-icon>
+    </ion-button>
   </ion-card>
 
+  <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+    <ion-fab-button (click)="irPagina1()">
+      <ion-icon name="add-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
   
 </ion-content>
